@@ -121,3 +121,16 @@ public class calculadora extends JFrame {
 				textField.setText(textField.getText()+"7");
 			}
 		});
+        btn7.setBounds(50, 107, 75, 33);
+        contentPane.add(btn7);
+    }
+	//Esto es la suma de los 2 números que se ingresen en la calculadora
+    public double sumar(double numero1, double numero2) {
+        return numero1 + numero2;
+    }
+
+    // Esto es la resta de los 2 números que se ingresen en la calculadora
+    public double restar(double numero1, double numero2) {
+        return numero1 - numero2;
+    }
+}
